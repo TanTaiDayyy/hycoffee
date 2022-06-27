@@ -1,0 +1,48 @@
+
+body {
+    height: 100%;
+    width: 100%;
+    
+    
+    padding-bottom: 100px;
+    font-weight: 900;
+    text-shadow: 0px 0px 0px rgb(0, 0, 0);
+    background: linear-gradient(-135deg,rgb(102, 247, 255), rgb(250, 177, 244));
+    text-align: center;
+     display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: #7cf3fe;
+  margin-bottom:30px;
+  border-top: 20px solid ;
+}
+
+form {
+    margin: 30px;
+}
+
+.nut {
+    margin-top: 20px;
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+.khung {
+    border: 4px double black;
+    width: 400px;
+    box-shadow: 2px 2px 50px gray;
+    background: linear-gradient(-135deg,rgb(102, 247, 255), rgb(250, 177, 244));
+}
+.k{
+    width: 350px;
+}
+
+
+

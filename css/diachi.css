@@ -1,0 +1,80 @@
+.kiemtra{
+    min-width: 1200px;
+    width: 1200px;
+    text-align: center;
+}
+.check-don input{
+    width: 550px;
+    height: 30px;
+    margin-left: 100px;
+    margin-top: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+}
+.check-don input::placeholder{
+    font-weight: bold;
+}
+.check-don button:active{
+    transform: scale(0.95);
+}
+.check-don button:hover{
+    background: transparent linear-gradient(
+179deg
+,#00483d  0%,#00483d 100%) 0% 0% no-repeat padding-box;
+}
+.check-don button{
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 60px;
+    background: transparent linear-gradient(
+179deg
+,#009981 0%,#00483d 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin-top: 30px;
+}
+.you-know{
+      width: 1000px;
+      height: 50px;
+      margin-left: 200px;
+      margin-top: 50px;
+      margin-bottom: 100px;
+      border-radius: 25px;
+      background: #1fa48f 0% 0% no-repeat padding-box;
+      color: white;
+      position: relative;
+}
+.you-know img{
+    position: absolute;
+    left: -150px;
+    bottom: -50px;
+}
+.you-know p{
+    position: absolute;
+    left: 130px;
+    top: 2px;
+    font-weight: bold;
+}
+.you-know button{
+    position: absolute;
+    height: 35px;
+    width: 150px;
+    color: #1fa48f;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    right: 13px;
+    top: 7px;
+    font-weight: bold;
+    background-color: white;
+}
+.you-know button:hover{
+    background-color: #eee;
+}

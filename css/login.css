@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: #7cf3fe;
+  margin-bottom:30px;
+}
+.wrapper1{
+    width: 380px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 15px 20px black;
+}
+.wrapper1 .title{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 100px;
+    color: rgb(0, 0, 0);
+    user-select: none;
+    border-radius: 15px 15px 0 0;
+    background: linear-gradient(-135deg,rgb(102, 247, 255), rgb(250, 177, 244));
+}
+.wrapper1 form{
+    padding: 10px 30px 50px 30px;
+}
+.wrapper1 form .nut{
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.wrapper1 form .nut input,
+.wrapper1 form .nut button{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    padding-left: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+}
+.remember-me{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content{
+    position: relative;
+}
+
+.forgot{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.forgot a,.register a{
+    text-decoration: none;
+    color: #4158d0;
+}
+.register{
+    margin-left: 50px;
+    margin-top: 25px;
+}
+.wrapper1 form .nut button:active{
+    transform: scale(0.95); 
+}
+.wrapper1 form .nut button{
+    background: linear-gradient(-135deg,rgb(102, 247, 255), rgb(250, 177, 244));
+     color: rgb(0, 0, 0);
+}

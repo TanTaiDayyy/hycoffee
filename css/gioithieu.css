@@ -1,0 +1,46 @@
+.gioithieu{
+    min-width: 1200px;
+    width: 1200px;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+.gioithieu p{
+    font-size: 15px;
+}
+.link-pr{
+    font-weight: bold;
+    color: #009981;
+    text-decoration: none;
+}
+.link-trangchu{
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+#myVideo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.control{
+    text-align: center;
+    border-bottom: 1px solid rgb(0, 213, 255);
+    border-radius: 10px;
+}
+.section{
+    border-top: 1px solid rgb(0, 213, 255);
+}
+.header{
+    border-bottom: 1px solid rgb(0, 213, 255);
+}
+button{
+    color:rgb(0, 0, 0);
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+}

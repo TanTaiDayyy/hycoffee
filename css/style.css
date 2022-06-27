@@ -1,0 +1,337 @@
+html,body{
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+    font-size: 13px;
+    font-weight: 400;
+    color: #333;
+    margin: auto;
+    padding: 0;
+    background: #7cf3fe;
+    min-width: 1200px;
+    box-sizing: border-box;
+}
+#dongho{
+    width: 137px;
+    margin-left: 20px;
+    padding: 2px 15px;
+    background-color: rgb(1, 32, 1);
+    border-radius: 10px;
+    font-size: 30px;
+   
+}
+.wrapper{
+    margin-left: 150px;
+   
+}
+.khuc-tren{
+    width: 1200px;
+    height: 60px;
+    position: relative;
+}
+.menu-top{
+    width: 100%;
+    height: 80px;
+  
+    background-color: #000000;
+     overflow: hidden;
+    position: fixed;
+     top: 0; /* Position the navbar at the top of the page */
+  z-index: 999;
+}
+.menu-top>ul{
+    list-style: none;
+    padding-left:  480px;
+}
+.menu-top li{
+    float: left;
+    margin-left: 20px;  
+}
+.menu-top a{
+    text-decoration: none;
+    color: white;
+     float: left;
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+}
+.menu-top>ul>li>a:hover{
+    color: skyblue;
+   
+}
+.logo{
+    float: left;
+    margin-top: 15px;
+}
+
+.gio-hang{
+    right: 25px;
+    top: 7px;
+    position: absolute;
+}
+.gio-hang span{
+    position: absolute;
+    padding: 3px;
+    border-radius: 5px;
+    right: -15px;
+    background-color: tomato;
+    color: white;
+    font-weight: bold;
+}
+.gio-hang img {
+    width: 50px;
+}
+.check-bill{
+    width: 150px;
+    height: 40px;
+    background-color:  #000000;
+    position: absolute;
+    right: 100px;
+    top: 10px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 0px 5px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.check-bill span{
+    color: white;
+    font-size: 13px;
+}
+.check-bill:hover{
+    background-color: yellowgreen;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px red;
+}
+.check-bill a{
+    text-decoration: none;
+}
+.menu{
+    position: relative;
+    width: 1200px;
+    height: 65px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color:  #000000;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+.menu ul{
+    list-style: none;
+    margin-right: 40px;
+}
+.menu li{
+    float: left;
+    margin-left: 20px;
+}
+.menu span{
+    color: white;
+    margin-top: 20px;
+    margin-left: 7px;
+    font-size: 10px;
+}
+.menu a{
+    text-decoration: none;
+}
+.menu img{
+    width: 25px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+.click{
+    width: 95%;
+    height: 5px;
+    margin-left: 5px;
+    background-color: orange;
+    border-radius: 5px;
+    display: none;
+}
+.btn-sub:hover .click{
+    display: block;
+}
+
+.banner img{
+    border-radius: 10px;
+}
+.duoi-banner{
+    width: 1200px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.tren-main{
+    width: 1200px;
+    height: 150px;
+    margin-top: 15px;
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.button-tren-main{
+    float: left;
+    
+    
+}
+.sale>h3{
+    font-size: 35px;
+    color:#fc521d;
+}
+.tren-sanpham img{
+    border-radius: 10px;
+}
+
+.sanpham{
+    margin-top: 20px;
+}
+.sanpham-name{
+    width: 300px;
+    height: 30px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sanpham-name a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sanpham-list{
+    width: 1200px;
+    height: 1000px;
+    
+}
+.la-sanpham{
+    float: left;
+    width: 230px;
+    height: 385px;
+    background-color: white;
+    margin-left: 10px;
+    margin-bottom: 12px;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+}
+.la-sanpham button{
+    margin-top: 15px;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    border-radius: 7px;
+    font-weight: bold;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,'Segoe UI';
+}
+.la-sanpham button:hover{
+    background-color: rgb(0, 238, 255);
+    color: black;
+    transform: scale(0.9);
+}
+
+.la-sanpham>img{
+    position: absolute;
+    left: 0px;
+}
+.la-sanpham a{
+    color: rgb(0, 242, 255);
+    font-weight: bold;
+    text-decoration: none;
+}
+.la-sanpham a:hover{
+    color: skyblue;
+}
+.la-sanpham strong{
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+.la-sanpham strike{
+    font-size: 15px;
+}
+.top-footer{
+    width: 1200px;
+}
+.camket{
+    width: 200px;
+    height: 100px;
+    float: left;
+    margin-top: 30px;
+
+
+}
+.camket strong{
+   font-size: 18px;
+}
+.camket span{
+    font-size: 13px;
+
+}
+#footer p, #footer h4, #footer a{
+    color: white;
+    text-decoration: none;
+}
+#footer h4{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.top-footer>img{
+    float: left;
+    width: 65px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+.top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 100px;
+    
+}
+.ghichu>span{
+    display: inline-block;
+    background: #f7941e 0% 0% no-repeat padding-box;
+    box-shadow: 0 4px 6px #00000029;
+    border-radius: 3px;
+    padding: 3px 5px;
+    color: #fff;
+    font-size: 11px;
+    margin-left: 5px;
+}
+.ghichu strong{
+    color: #f7941e;
+    font-size: 13px;
+}
+.container img{
+    border-radius: 10px;
+    
+}
+#next{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-image: url(../images/next.png);
+    top: 340px;
+    left: 1250px;
+}
+#prev{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-image: url(../images/prev.png);
+    top: 340px;
+    left: 180px;
+}

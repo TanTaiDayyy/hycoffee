@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/banhang.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet"  />
+</head>
+<body>
+     <header class="menu-top">
+         <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li><a href="gioithieu.html">Giới thiệu</a></li>
+            <li><a href="diachi.html">Địa chỉ</a></li>
+            <li><a href="tuyendung.html">Tuyển dụng</a></li>
+            <li><a href="login.html">Đăng nhập</a></li>
+            <li><a href="banhang.html">Bán hàng</a></li>
+        </ul>
+    </header>
+
+
+
+    <article class="wrapper">
+        <section id="header">
+            <div class="khuc-tren">
+
+                <div class="gio-hang">
+                    <a href="giohang.html">
+                        <span id="count_cart">0</span>
+                        <img src="images/gio-hang.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+
+            
+                        
+            <div class="container">
+
+                <img src="images/slide1.png" alt="" width="1200px" id="anh">
+                <div id="prev" onclick="Prev()"></div>
+                <div id="next" onclick="Next()"></div>
+            </div>
+            
+        </section>
+        </article>
+    <div class="wrapper1">
+     <div class="tittle">
+            <h2>Bán hàng</h2>
+        </div>
+
+        <div class="mucgia">
+            <select name="price" id="filter">
+                    <option value="0">Chọn mức giá</option>
+					<option value="1">Dưới 100</option>
+					<option value="2">Từ 100 đến 500</option>
+					<option value="3">Trên 500</option>
+        </select>
+        </div>
+        
+
+        <div class="container" style="width: 70% !important;">
+            <table class="table table-bordered ">
+                <thead>
+                    <tr>
+                        <td><input type="checkbox" id="checkAll"></td>
+                        <th>Hàng hóa</th>
+                        <th>Đơn giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>FREEZE Socola</td>
+                        <td>45000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>FREEZE Matcha</td>
+                        <td>45000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Trà Đào</td>
+                        <td>30000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Trà Vải</td>
+                        <td>30000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox" class="check"></td>
+                        <td>Cà Phê</td>
+                        <td>30000</td>
+                        <td><input type="number" value="0" min="0" step="1" disabled></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th colspan="4">Tổng</th>
+                        <th id="tongtien"></th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+       
+
+    </div>
+    <footer class="top-footer">
+            
+            <img src="images/giaohang.png" alt="">
+            <div class="camket">
+
+                <span>Miễn phí vận chuyển</span>
+                <br>
+                <strong>TOÀN QUỐC</strong>
+            </div>
+            <img src="images/hotline.png" alt="">
+            <div class="camket">
+
+                <span>Hotline hỗ trợ</span>
+                <br>
+                <strong>1200.2603</strong>
+            </div>
+            <div>
+                <p>Địa chỉ: Tầng 4-5-6, Tòa nhà Capital Place, số 29 đường Liễu Giai, Phường Ngọc Khánh, Quận Ba Đình, Thành phố Hà Nội, Việt Nam. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn</p>
+                <p>Chịu Trách Nhiệm Quản Lý Nội Dung: Nguyễn Đức Trí - Điện thoại liên hệ: 024 73081221 (ext 4678)</p>
+                <p>Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015</p>
+                <p>© 2015 - Bản quyền thuộc về Công ty TNHH Shopee</p>
+            </div>
+          
+        </footer>
+
+    <script src="js/banhang.js"></script>
+    <script src="js/slide.js"></script>
+</body>
+</html>
